@@ -29,7 +29,6 @@ int main()
 
             int mousePOS_X = sf::Mouse::getPosition(window).x;
             int mousePOS_Y = sf::Mouse::getPosition(window).y;
-            return mousePOS_X,mousePOS_Y;
 
 
         }

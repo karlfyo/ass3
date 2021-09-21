@@ -1,3 +1,3 @@
 all: 
-	gcc ./main.cpp -o main -lsfml-graphics -lsfml-window -lsfml-system -lstdc++
-	./main
+	gcc ./main.cpp -o build/main -lsfml-graphics -lsfml-window -lsfml-system -lstdc++
+	./build/main
